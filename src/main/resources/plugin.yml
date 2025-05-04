@@ -3,3 +3,12 @@ version: '1.0'
 main: plugin.slowRights.SlowRights
 api-version: '1.21'
 authors: [ Jxst_Kirito ]
+commands:
+  rechte:
+    description: Zeigt die Rechte des Spielers an
+    usage: /rechte
+
+permissions:
+  slowrights.rechte:
+    description: Erlaubt es dem Spieler, seine Rechte anzuzeigen
+    default: true
