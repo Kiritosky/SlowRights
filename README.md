@@ -1,6 +1,6 @@
 # SlowRights
 
-**SlowRights** ist ein Minecraft-Bukkit-Plugin, das eine benutzerdefinierte GUI bereitstellt, um die Rechte und Ränge auf einem Server anzuzeigen. Das Plugin ist vollständig konfigurierbar und bietet eine einfache Möglichkeit, Ränge und Berechtigungen zu verwalten.
+**SlowRights** ist ein Minecraft-Paper-Plugin, das eine benutzerdefinierte GUI bereitstellt, um die Rechte und Ränge auf einem Server anzuzeigen. Das Plugin ist vollständig konfigurierbar und bietet eine einfache Möglichkeit, Ränge und Berechtigungen zu verwalten.
 
 ## Funktionen
 
@@ -11,7 +11,7 @@
 ## Installation
 
 1. Lade die `.jar`-Datei des Plugins herunter.
-2. Kopiere die Datei in den `plugins`-Ordner deines Bukkit- oder Spigot-Servers.
+2. Kopiere die Datei in den `plugins`-Ordner deines Paper-Servers.
 3. Starte den Server neu, um das Plugin zu laden.
 4. Passe die `config.yml` im Plugin-Ordner an, um die GUI nach deinen Wünschen zu gestalten.
 
