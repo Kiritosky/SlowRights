@@ -1,5 +1,5 @@
 name: SlowRights
-version: '1.0'
+version: '1.2'
 main: plugin.slowRights.SlowRights
 api-version: '1.21'
 authors: [ Jxst_Kirito ]

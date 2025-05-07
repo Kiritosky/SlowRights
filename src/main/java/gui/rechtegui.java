@@ -32,6 +32,14 @@ public class rechtegui {
             gui.setItem(i, blackPane);
         }
 
+        ItemStack infoItem = new ItemStack(Material.BARRIER);
+        ItemMeta infoMeta = infoItem.getItemMeta();
+        if (infoMeta != null) {
+            infoMeta.setDisplayName("§c§lRangshop");
+            infoItem.setItemMeta(infoMeta);
+        }
+        gui.setItem(49, infoItem);
+
         for (String key : plugin.getConfig().getConfigurationSection("items").getKeys(false)) {
             int slot = plugin.getConfig().getInt("items." + key + ".slot");
             Material material = Material.valueOf(plugin.getConfig().getString("items." + key + ".item").toUpperCase());
